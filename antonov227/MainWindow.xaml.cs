@@ -32,10 +32,12 @@ namespace antonov227
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
-            double x1 = Convert.ToDouble(TbNumberA.Text);
-            double x2 = Convert.ToDouble(TbNumberB.Text);
-            double s = Math.Abs(x2-x1);
-            TextBlockAnswer.Text = $"Ответ:\n площадь = {s}";
+            double v1 = Convert.ToDouble(TbNumberA.Text);
+            double v2 = Convert.ToDouble(TbNumberB.Text);
+            double s = Convert.ToDouble(TbNumberB.Text);
+            double t = Convert.ToDouble(TbNumberB.Text);
+            double s2 = Math.Abs(s - t * (v1 + v2));
+            TextBlockAnswer.Text = $"Ответ:\n расстояние между ними = {s2}";
         }
     }
 }
