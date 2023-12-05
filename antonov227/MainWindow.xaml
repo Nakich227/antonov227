@@ -19,20 +19,20 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
-            <TextBlock Text="задание 1"
+            <TextBlock Text="задание 2"
                        Grid.Row="0"
                        Grid.Column="0"
                        Grid.ColumnSpan="2"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center"/>
-            <TextBlock Text="сторана а"
+            <TextBlock Text="x1"
                        Grid.Row="1"
                        Grid.Column="0"
                        Grid.ColumnSpan="2"
                         HorizontalAlignment="Left"
                        VerticalAlignment="Center"
                        Margin="10"/>
-            <TextBlock Text="сторана b"
+            <TextBlock Text="x2"
                         Grid.Row="2"
                        Grid.Column="0"
                         HorizontalAlignment="Left"
